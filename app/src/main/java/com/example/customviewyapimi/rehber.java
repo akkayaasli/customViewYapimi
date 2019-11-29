@@ -6,33 +6,43 @@ public class rehber
     String numara;
     int kisiResim;
 
-    public rehber(String ad, String numara, int kisiResim) {
+    //public  rehber(){}
+
+    /*public rehber(String ad, String numara, int kisiResim)
+    {
+      //  super();//YENİ-1
         this.ad = ad;
         this.numara = numara;
         this.kisiResim = kisiResim;
-    }
+    }*/
 
-    public String getAd() {
+    public String getAd()
+    {
         return ad;
     }
 
-    public void setAd(String ad) {
+    public void setAd(String ad)
+    {
         this.ad = ad;
     }
 
-    public String getNumara() {
+    public String getNumara()
+    {
         return numara;
     }
 
-    public void setNumara(String numara) {
+    public void setNumara(String numara)
+    {
         this.numara = numara;
     }
 
-    public int getKisiResim() {
+    public int getKisiResim()
+    {
         return kisiResim;
     }
 
-    public void setKisiResim(int kisiResim) {
+    public void setKisiResim(int kisiResim)
+    {
         this.kisiResim = kisiResim;
     }
 }
